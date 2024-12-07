@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'monerat', sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    padding: 20px 40px;
+    background-color: transparent;
+    backdrop-filter: blur(9px);
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1005;
+}
+
+.hedhr {
+    height: 18px;
+    background-color: aqua;
+    z-index: 2000;
+    top: 50%;
+    width: 800px;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.hdrbtn {
+    padding: 10px 20px;
+    background-color:rgb(15, 176, 9) ;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sec0 {
+    height: 40vh;
+    background-size: 100;
+    background-repeat: no-repeat;
+    background-image: url(images/destroyed-building-russian-s-war-ukraine.jpg);
+}
+
+.formcontainer {
+    width: 350px;
+    background-color: aqua;
+}
+
+.inputbox {
+    width: 100%;
+}

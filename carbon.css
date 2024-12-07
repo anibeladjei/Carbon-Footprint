@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'monerat', sans-serif;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+
+
+.header {
+    display: flex;
+    padding: 20px 40px;
+    background-color: transparent;
+    backdrop-filter: blur(9px);
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    /*box-shadow: 0px 0px 39px;
+    border-bottom: 2px solid teal; */
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.hdrbtn {
+    padding: 10px 20px;
+    background-color: rgb(15, 176, 9);
+    
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sec1 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url(images/pexels-samforson-243138.jpg);
+    align-content: center;
+    justify-items: center;
+    opacity: 1;
+    position: relative;
+}
+
+.content {
+    width: 80%;
+    
+}
+
+.content h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 96px;
+    color: rgb(6, 112, 8);
+    text-shadow: 1px 1px 1px;
+    -webkit-text-stroke: 0.1px greenyellow;
+}
+
+.content p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 46px;
+}
+
+.sec1btns {
+    display: flex;
+    left: 150px;
+    position: absolute;
+    gap: 20px;
+}
+
+.sbtn {
+    padding: 15px 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: rgb(15, 176, 9);
+    transition: 1s;
+}
+
+.sbtn:hover {
+    background-color: teal;
+    transition: 1s;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 2px solid rgb(15, 176, 9);
+    color: white;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.btn2:hover {
+    background-color: teal;
+    transition: 1s;
+}
+
+.sec2 {
+    display: flex;
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.sec2text {
+    font-size: 30px;
+    align-content: center;
+    width: 50%;
+}
+
+.sec2text h2 {
+    margin-bottom: 20px;
+}
+
+.sec2text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.hr1 {
+    width: 100px;
+    height: 7px;
+    background-color: brown;
+    margin-bottom: 10px;
+}
+
+.sec3 {
+    height: 60vh;
+    background-color: aliceblue;
+    justify-items: center;
+    align-content: center;
+}
+
+/*.sec3text {
+    width: ;
+}*/
+
+.sec3text h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.sec3text p {
+    width: 900px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 50px 0px;
+}
+
+.sec3btns {
+    display: flex;
+    gap: 30px;
+}
+
+.sec3btn {
+    padding: 15px 40px;
+    background-color: rgb(15, 176, 9);
+    outline: none;
+    border: none ;
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.sec3btn2 {
+    background-color: transparent;
+    border: 2px solid rgb(15, 176, 9);
+    color: rgb(15, 176, 9);
+}
+
+.sec3btn:hover {
+    background-color: teal;
+    border: 2px solid rgb(8, 107, 4);
+    transition: 1s;
+    color: aliceblue;
+}
+
+
+.sec4 {
+    height: 90vh;
+    background-color: aliceblue;
+    justify-items: center;
+}
+
+.sec4head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* BLOGG CARD */ 
+
+.sec4bogcont {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardcont img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.cardcont img:hover {
+    border-radius: 15px;
+
+}
+
+.sec4blgtext h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sec4blgtext a {
+    text-decoration: none;
+}
+
+.sec4blgtext a:hover {
+    color: brown;
+}

@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'monerat', sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    padding: 20px 40px;
+    background-color: transparent;
+    backdrop-filter: blur(9px);
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.hdrbtn {
+    padding: 10px 20px;
+    background-color: rgb(15, 176, 9) ;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
